@@ -44,6 +44,7 @@ Compile e execute o programa [mvt.c](https://github.com/ramonfontes/so/blob/mast
 2. Houve fragmentação interna? Justifique.
 3. Quem utiliza recursos de forma mais eficiente? MFT ou MVT?
 
+---
 
 ### Worst-Fit
 
@@ -63,6 +64,8 @@ Compile e execute o programa [worst_fit.c](https://github.com/ramonfontes/so/blo
 
 1. Comente o resultado observado.
 
+---
+
 ### Best-Fit
 
 Compile e execute o programa [best_fit.c](https://github.com/ramonfontes/so/blob/master/memory_management/best_fit.c) e responda ao questionário conforme abaixo:
@@ -80,6 +83,8 @@ Compile e execute o programa [best_fit.c](https://github.com/ramonfontes/so/blob
 #### Perguntas:
 
 1. Comente o resultado observado.
+
+---
 
 ### First-Fit
 
@@ -100,13 +105,15 @@ Compile e execute o programa [first_fit.c](https://github.com/ramonfontes/so/blo
 1. Comente o resultado observado.
 2. Faça uma análise comparativa e justifique através dos resultados obtidos em Worst-Fit, Best-Fit e First-Fit, qual deles apresentou melhor desempenho e porque.
 
+---
+
 ### Paginação (Paging)
 
 Compile e execute o programa [paging.c](https://github.com/ramonfontes/so/blob/master/memory_management/paging.c) e responda ao questionário conforme abaixo:
 
 
 - Informe o tamanho da memória: 1000
-- Informe o tamanho da página -- 100
+- Informe o tamanho da página: 100
 - > O no. de páginas disponíveis na memória são 10
 - Informe o número de processos: 3
 - Informe o número de páginas necessárias para p[1]: 4
@@ -121,6 +128,4 @@ Compile e execute o programa [paging.c](https://github.com/ramonfontes/so/blob/m
 
 - Informe o no. do Processo, o número da página e o offset: 2 3 60
 
-#### Perguntas:
-
-1. O que seria o offset? Faça um paralelo entre o seu conceito e o resultado apresentado para o endereço físico.
+2. O que seria o offset? Faça um paralelo entre o seu conceito e o resultado apresentado para o endereço físico.
