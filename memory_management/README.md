@@ -16,6 +16,19 @@ Compile e execute o programa [mft.c](https://github.com/ramonfontes/so/blob/mast
 - Informe a quantidade de mmemória necessária para o processo 5 (em Bytes): 100
 - No. de blocos disponíveis em memória: 3
 
+#### Resultado da Execução:
+
+```
+PROCESSO	MEMÓRIA NECESSÁRIA	ALOCADA	FRAGMENTAÇÃO INTERNA
+ 1		275			SIM		25
+ 2		400			NÃO			---
+ 3		290			SIM		10
+ 4		293			SIM		7
+Memória está cheia. Alguns processos não foram acomodados.
+
+Total de Fragmentação Interna é 42
+Total de Fragmentação Externa é 100
+```
 
 #### Perguntas:
 
@@ -37,6 +50,22 @@ Compile e execute o programa [mvt.c](https://github.com/ramonfontes/so/blob/mast
 - Memória está alocada para o Processo 2
 - Você deseja continuar (s/n): s
 - Informe a quantidade de mmemória necessária para o processo 3 (em Bytes): 550
+
+
+#### Resultado da Execução:
+
+```
+Memória está cheia
+
+Total de Memória Disponível -- 1000
+
+	PROCESSO	MEMÓRIA ALOCADA 
+ 	1		400
+ 	2		275
+
+Total de Memória Alocada é 675
+Total de Fragmentação Externa é 325
+```
 
 #### Perguntas:
 
@@ -60,6 +89,15 @@ Compile e execute o programa [worst_fit.c](https://github.com/ramonfontes/so/blo
 - Arquivo 1: 1
 - Arquivo 2: 4
 
+
+#### Resultado da Execução:
+
+```
+Arquivo_no:	Tamanho Arquivo :	Bloco_no:	Tamanho Bloco:	Fragmento
+1		1			1		5		4
+2		4			3		7		3
+```
+
 #### Perguntas:
 
 1. Comente o resultado observado.
@@ -80,6 +118,15 @@ Compile e execute o programa [best_fit.c](https://github.com/ramonfontes/so/blob
 - Arquivo 1: 1
 - Arquivo 2: 4
 
+
+#### Resultado da Execução:
+
+```
+Arquivo_no:	Tamanho Arquivo :	Bloco_no:	Tamanho Bloco:	Fragmento
+1		1			2		2		1
+2		4			1		5		1
+```
+
 #### Perguntas:
 
 1. Comente o resultado observado.
@@ -99,6 +146,15 @@ Compile e execute o programa [first_fit.c](https://github.com/ramonfontes/so/blo
 - Informe o tamanho dos arquivos:
 - Arquivo 1: 1
 - Arquivo 2: 4
+
+
+#### Resultado da Execução:
+
+```
+Arquivo_no:	Tamanho Arquivo :	Bloco_no:	Tamanho Bloco:	Fragmento
+1		1			3		7		6
+2		4			1		5		1
+```
 
 #### Perguntas:
 
@@ -121,6 +177,15 @@ Compile e execute o programa [paging.c](https://github.com/ramonfontes/so/blob/m
 - Informe o número de páginas necessárias para p[2]: 5
 - Informe a tabela de página para p[2]: 1 4 5 7 3
 - Informe o número de páginas necessárias para p[3]: 5
+
+
+#### Resultado da Execução:
+
+```
+Memória está cheia
+
+O endereço físico é 760
+```
 
 #### Perguntas:
 
